@@ -10,6 +10,7 @@
 </template>
 <script>
   export default {
+//    接受外部声明
     props: {
       title:String
     }

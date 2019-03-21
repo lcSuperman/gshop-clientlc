@@ -30,15 +30,13 @@ export default function ajax(url,data={},type='GET'){
 }
 
 
-
-
 async function Login(){
-  const response = await ajax('./login',{name:'tom',pwd:'123'},'POST')
-  const result = response.data
-  if(result.code===0){
-      //   成功
-      }else{
-      //  失败
-      }
+  // const response = await ajax('./login',{name:'tom',pwd:'123'},'POST')
+  // const result = response.data
+  // if(result.code===0){
+  //     //   成功
+  //     }else{
+  //     //  失败
+  //     }
 
 }
